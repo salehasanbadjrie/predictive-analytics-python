@@ -42,3 +42,12 @@ The Random Forest model achieved an accuracy of 85%, with the following performa
 - **F1-Score**: 0.80
 
 The model indicates that `satisfaction_level`, `number_project`, and `average_montly_hours` are the top predictors of employee turnover.
+
+
+## Using Deep Learning for Employee Turnover Prediction
+
+We built a deep learning model using TensorFlow and Keras to predict employee turnover. The model was trained with normalized data and fine-tuned using early stopping to prevent overfitting. The model achieved an accuracy of 85% on the test set.
+
+To reproduce the results:
+1. Install TensorFlow: `pip install tensorflow`
+2. Run the `notebooks/deep_learning_model.ipynb` notebook.
